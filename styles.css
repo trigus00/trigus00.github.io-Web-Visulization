@@ -1,0 +1,174 @@
+body{
+  background-color: gainsboro !important
+}
+
+/* Navigation modification */
+
+.navigation {
+  background-color: rgb(117, 202, 255); 
+  margin-right: 100;
+  border: 5px;
+  padding : 10px
+}
+.dropbtn {
+    
+    color: lightseagreen;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+.active , .navbar-collapse {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+.active ,.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: lightseagreen;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+.dropdown-item a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+.dropdown-item a:hover {
+      background-color: #9b9b9b}
+
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #b1b1b1;
+  }
+  
+.footer{
+  background-color: #666666; 
+  border-top-style: solid; 
+  border-top-width: 5px; 
+  border-top-color: lightskyblue;
+  color: white; 
+  min-height: 55px; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px; 
+  text-align: center; 
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 15px; 
+  }
+.box{
+    margin-top: 60px; 
+    margin-left: 15px;
+    padding-right: 10px;
+    padding-left : 40px;
+    padding-bottom: 20px;
+    
+    color:black;
+    background-color: white
+  
+}
+.active, .panel:hover{
+  border-color:lightskyblue;
+  border-style: solid; 
+  
+}
+.left_box {
+    margin-top: 60px; 
+    margin-bottom: 62px; 
+    padding: 10px 20px 15px; 
+    color:black;
+    background-color: white; 
+  
+
+  }
+.right_box {
+    margin-top: 60px; 
+    margin-bottom: 62px; 
+    margin-left: 20px;
+    padding: 25px 40px 20px; 
+  
+    color:black;
+    background-color: white; 
+  
+
+  }
+  /* Title Class  */
+.title{
+  color: rgb(51, 51, 51);  
+  background-color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder; 
+  padding-top: 25px; 
+}
+/* Paragraph Element */
+p{
+color: #6D8092;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px; 
+}
+.visual{
+  width: 100%
+}
+.panel {
+  width: 80%
+}
+/* Table */
+.table{
+  font-size: 15px; 
+  border-top-color: white ;
+
+  
+} 
+.rows {
+    margin-top: 60px; 
+    margin-left: 20px;
+    padding-top: 50px;
+    padding-left : 50px;
+    padding-bottom: 90px; 
+    color:black;
+    background-color: white
+}
+
+/* Media Queries */
+@media(max-width: 992px){
+  .navbar-expand-lg{
+  background-color:  rgb(117, 202, 255)!important;
+  }
+  .navbar{
+      max-height: none; 
+      padding: inherit ;
+  }
+  .navbar div{
+      margin: inherit; 
+      background-color: white;  
+  }
+  .navbar-brand{
+      padding: 10px ; 
+  }
+
+  
+.button {
+      margin-right: 30px;
+      
+      
+      
+  }
+
+}

@@ -49,10 +49,7 @@ Is responsive (using media queries). The nav must have similar behavior as the s
 
 ## Needs of this project
 - frontend developers
-- Backend developers 
-- data exploration
-- data processing/cleaning
-- writeup/reporting
+
 
 ## Contact
 Gustavo Mendoza 
